@@ -124,3 +124,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Configura la URL a la que los usuarios serán redirigidos después de iniciar sesión
+LOGIN_REDIRECT_URL = '/home/'  # Asegúrate de que esta URL sea correcta
